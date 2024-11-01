@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Home.css">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow-y: auto; 
+            overflow-x: hidden; 
+          }
+      </style>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <p>
+                <img src="phone.png" alt="Phone" class="contact-icon"> 0123456789 |
+                <img src="mail.png" alt="Email" class="contact-icon"> phamminhheo2k5@gmail.com
+            </p>
+            <div class="social-icons">
+                <img src="twitter.png" alt="Twitter" class="social-icon">
+                <img src="fb.png" alt="Facebook" class="social-icon">
+                <img src="insta.png" alt="Instagram" class="social-icon">
+                <img src="printest.png" alt="Meo" class="social-icon">
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="logo-section">
+                <img src="logo.png" alt="Other Logo" class="other-logo">
+                <h1 class="logo-text">Quân Văn Minh</h1>
+            </div>
+            <ul>
+                <li><a href="Home.html" >Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Menu.html"class="active">Menu</a></li>
+                <li><a href="Pages.html">Pages</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            <a href="Booking.html" class="btn-book">Đặt Bàn</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="menu-section">
+            <h1>Thực Đơn Của Chúng Tôi</h1>
+            <p>Chúng tôi cân nhắc tất cả các yếu tố thay đổi để mang đến cho bạn các thành phần bạn cần để tạo ra một sự thay đổi thực sự.</p>
+            <div class="menu-filters">
+                <button class="filter-btn active">Tất Cả</button>
+                <button class="filter-btn">Bữa Sáng</button>
+                <button class="filter-btn">Món Chính</button>
+                <button class="filter-btn">Đồ Uống</button>
+                <button class="filter-btn">Tráng Miệng</button>
+            </div>            
+            <div class="menu-items">
+                <!-- Mục Thực Đơn -->
+                <div class="menu-item" data-category="breakfast">
+                    <img src="fried-eggs.png" alt="Trứng Chiên">
+                    <h3>$ 9.99</h3>
+                    <p><strong>Trứng Chiên</strong></p>
+                    <p>Trứng gà tươi được chiên vàng, mang đến hương vị thơm ngon.</p>
+                </div>
+                <div class="menu-item" data-category="main">
+                    <img src="pizza.png" alt="Pizza Hawaii">
+                    <h3>$ 15.99</h3>
+                    <p><strong>Pizza Hawaii</strong></p>
+                    <p>Pizza hấp dẫn với lớp đế giòn, phủ trứng, bột mì, xúc xích, phô mai và các nguyên liệu tươi ngon.</p>
+                </div>
+                <div class="menu-item" data-category="drink">
+                    <img src="martinez-cocktail.png" alt="Cocktail Martinez">
+                    <h3>$ 7.25</h3>
+                    <p><strong>Cocktail Martinez</strong></p>
+                    <p>Hương vị độc đáo từ sự kết hợp của Gin, Rượu Vermouth ngọt, Rượu Maraschino, Angostura bitters và vỏ cam hoặc quả cherry trang trí.</p>
+                </div>
+                <div class="menu-item" data-category="dessert">
+                    <img src="butterscotch-cake.png" alt="Bánh Butterscotch">
+                    <h3>$ 20.99</h3>
+                    <p><strong>Bánh Butterscotch</strong></p>
+                    <p>Bánh mềm mịn được làm từ trứng, sữa, bột mì, dầu và các nguyên liệu thơm ngon khác.</p>
+                </div>
+                <div class="menu-item" data-category="drink">
+                    <img src="mint-lemonade.png" alt="Nước Chanh Bạc Hà">
+                    <h3>$ 5.89</h3>
+                    <p><strong>Nước Chanh Bạc Hà</strong></p>
+                    <p>Nước chanh tươi mát, kết hợp với đường và lá bạc hà, mang đến hương vị thanh refreshing.</p>
+                </div>
+                <div class="menu-item" data-category="dessert">
+                    <img src="chocolate-icecream.png" alt="Kem Sôcôla">
+                    <h3>$ 18.05</h3>
+                    <p><strong>Kem Sôcôla</strong></p>
+                    <p>Thưởng thức kem sôcôla mịn màng, được chế biến từ các nguyên liệu tươi ngon như sôcôla, kem tươi, trứng và đường.</p>
+                </div>
+                <div class="menu-item" data-category="breakfast">
+                    <img src="burger.png" alt="Bánh Burger Phô Mai">
+                    <h3>$ 12.55</h3>
+                    <p><strong>Bánh Burger Phô Mai</strong></p>
+                    <p>Bánh burger phô mai hấp dẫn với nhân thơm ngon, rau sống và các gia vị đặc trưng.</p>
+                </div>
+                <div class="menu-item" data-category="breakfast">
+                    <img src="classic-waffles.png" alt="Bánh Waffles Cổ Điển">
+                    <h3>$ 9.99</h3>
+                    <p><strong>Bánh Waffles Cổ Điển</strong></p>
+                    <p>Bánh waffles cổ điển giòn tan, hoàn hảo cho bữa sáng hoặc bữa ăn nhẹ.</p>
+                </div>
+                <div class="menu-item" data-category="main">
+                    <img src="spaghetti-bolognese.png" alt="Mì Ý Sốt Bolognese">
+                    <h3>$ 13.99</h3>
+                    <p><strong>Mì Ý Sốt Bolognese</strong></p>
+                    <p>Mì Ý mềm được kết hợp với sốt thịt bò băm, cà chua và gia vị đặc trưng.</p>
+                </div>
+                <div class="menu-item" data-category="main">
+                    <img src="com-tam.png" alt="Cơm Tấm Sườn Nướng">
+                    <h3>$ 12.99</h3>
+                    <p><strong>Cơm Tấm Sườn Nướng</strong></p>
+                    <p>Cơm tấm thơm ngon kèm sườn nướng, trứng ốp la và dưa leo.</p>
+                </div>
+                <div class="menu-item" data-category="main">
+                    <img src="cha-ca-la-vong.png" alt="Chả Cá Lã Vọng">
+                    <h3>$ 14.99</h3>
+                    <p><strong>Chả Cá Lã Vọng</strong></p>
+                    <p>Chả cá được ướp gia vị và chiên vàng, thường được ăn kèm với bún và các loại rau sống.</p>
+                </div>
+                <div class="menu-item" data-category="main">
+                    <img src="goi-cuon.png" alt="Gỏi Cuốn Tôm Thịt">
+                    <h3>$ 8.99</h3>
+                    <p><strong>Gỏi Cuốn Tôm Thịt</strong></p>
+                    <p>Gỏi cuốn tươi ngon với tôm, thịt, bún và rau sống, chấm với nước mắm pha chua ngọt.</p>
+                </div>
+                <div class="menu-item" data-category="main">
+                    <img src="ragu-thit-bo.png" alt="Ragu Thịt Bò">
+                    <h3>$ 11.99</h3>
+                    <p><strong>Ragu Thịt Bò</strong></p>
+                    <p>Thịt bò hầm nhừ với sốt cà chua và gia vị, thường được ăn kèm với bánh mì.</p>
+                </div>
+                <div class="menu-item" data-category="main">
+                    <img src="ga-nuong-mat-hong.png" alt="Gà Nướng Mật Ong">
+                    <h3>$ 15.99</h3>
+                    <p><strong>Gà Nướng Mật Ong</strong></p>
+                    <p>Gà tươi được ướp với mật ong và gia vị, nướng cho đến khi vàng giòn.</p>
+                </div>
+                <div class="menu-item" data-category="main">
+                    <img src="thit-bo-xao-rau-cu.png" alt="Thịt Bò Xào Rau Củ">
+                    <h3>$ 14.49</h3>
+                    <p><strong>Thịt Bò Xào Rau Củ</strong></p>
+                    <p>Thịt bò mềm được xào với các loại rau củ tươi ngon như ớt chuông, cà rốt và hành tây.</p>
+                </div>
+                <div class="menu-item" data-category="main">
+                    <img src="ca-hoi-nuong.png" alt="Cá Hồi Nướng Cỏ Xạ Hương">
+                    <h3>$ 18.99</h3>
+                    <p><strong>Cá Hồi Nướng Cỏ Xạ Hương</strong></p>
+                    <p>Cá hồi tươi được ướp với cỏ xạ hương, nướng chín tới và phục vụ với nước sốt chanh.</p>
+                </div>
+                <div class="menu-item" data-category="drink">
+                    <img src="mango-smoothie.png" alt="Sinh Tố Xoài">
+                    <h3>$ 6.50</h3>
+                    <p><strong>Sinh Tố Xoài</strong></p>
+                    <p>Gồm xoài tươi, sữa chua và đá xay nhuyễn.</p>
+                </div>
+                <div class="menu-item" data-category="drink">
+                    <img src="strawberry-milkshake.png" alt="Sữa Lắc Dâu">
+                    <h3>$ 7.00</h3>
+                    <p><strong>Sữa Lắc Dâu</strong></p>
+                    <p>Dâu tây tươi kết hợp với kem và sữa, xay nhuyễn.</p>
+                </div>
+                <div class="menu-item" data-category="drink">
+                    <img src="iced-coffee.png" alt="Cà Phê Sữa Đá">
+                    <h3>$ 4.50</h3>
+                    <p><strong>Cà Phê Sữa Đá</strong></p>
+                    <p>Cà phê hòa tan với sữa đặc, phục vụ lạnh.</p>
+                </div>
+                <div class="menu-item" data-category="dessert">
+                    <img src="che-banh-flan.png" alt="Bánh Flan">
+                    <h3>$ 5.00</h3>
+                    <p><strong>Bánh Flan</strong></p>
+                    <p>Bánh flan mịn màng với caramel ngọt ngào.</p>
+                </div>
+                <div class="menu-item" data-category="main">
+                    <img src="fruit-salad.png" alt="Salad Trái Cây">
+                    <h3>$ 6.00</h3>
+                    <p><strong>Salad Trái Cây</strong></p>
+                    <p>Kết hợp nhiều loại trái cây tươi ngon, dọn kèm với nước sốt mật ong.</p>
+                </div>
+                <div class="menu-item" data-category="dessert">
+                    <img src="tiramisu.png" alt="Bánh Tiramisu">
+                    <h3>$ 7.50</h3>
+                    <p><strong>Bánh Tiramisu</strong></p>
+                    <p>Bánh tiramisu truyền thống với lớp cà phê và mascarpone.</p>
+                </div>
+                
+                
+                
+                
+                
+        </section>
+        </main>
+
+        <section class="order-apps-section">
+            <div class="text-content">
+              <h2>Bạn có thể đặt hàng qua ứng dụng</h2>
+              <p>Các ứng dụng sẽ mang lại trải nghiệm tốt cho mọi người. 
+                Cảm ơn vì đã ủng hộ.</p>
+            </div>
+        
+            <div class="apps-container">
+              <div class="app-card"><img src="uber-eats.png" alt="Uber Eats"></div>
+              <div class="app-card"><img src="grubhub.png" alt="Grubhub"></div>
+              <div class="app-card"><img src="postmates.png" alt="Postmates"></div>
+              <div class="app-card"><img src="doordash.png" alt="DoorDash"></div>
+              <div class="app-card"><img src="foodpanda.png" alt="Foodpanda"></div>
+              <div class="app-card"><img src="deliveroo.png" alt="Deliveroo"></div>
+              <div class="app-card"><img src="instacart.png" alt="Instacart"></div>
+              <div class="app-card"><img src="just-eat.png" alt="Just Eat"></div>
+              <div class="app-card"><img src="didi-food.png" alt="Didi Food"></div>
+            </div>
+          </section>
+        
+        
+    <!-- Footer -->
+<footer class="footer">
+    <div class="container footer-content">
+        <div class="footer-section">
+            <div class="logo-and-name">
+                <img src="logo2.png" alt="Shop Logo" class="shop-logo"> <!-- Logo của shop -->
+                <h2>Quân Văn Minh</h2> <!-- Tên shop -->
+            </div>
+            <p>Trong kỷ nguyên công nghệ mới, chúng tôi nhìn về tương lai với sự chắc chắn và tự hào về công ty của mình .</p>
+            <div class="social-icons">
+                <a href="https://twitter.com" target="_blank">
+                    <img src="tw1.png" alt="Twitter Icon" class="social-icon">
+                </a>
+                <a href="https://facebook.com" target="_blank">
+                    <img src="fb2.png" alt="Facebook Icon" class="social-icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="ins3.png" alt="Instagram Icon" class="social-icon">
+                </a>
+                <a href="https://pinterest.com" target="_blank">
+                    <img src="m4.png" alt="Pinterest Icon" class="social-icon">
+                </a>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h3>Pages</h3>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Pages.html">Blog</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Booking.html">Book A Table</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Utility Pages</h3>
+            <ul>
+                <li><a href="404.html">404 Not Found</a></li>
+                <li><a href="Licenses.html">Licenses</a></li>
+                <li><a href="Q&A.html">Evaluate</a></li>
+                <li><a href="https://didau.com/">View More</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Theo dõi chúng tôi trên Instagram</h3>
+            <div class="footer-images">
+                <img src="1.png" alt="Instagram Image 1">
+                <img src="2.png" alt="Instagram Image 2">
+                <img src="3.png" alt="Instagram Image 3">
+                <img src="4.png" alt="Instagram Image 4">
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2023 Hashtag Developer. All Rights Reserved</p>
+    </div>
+</footer>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const filterButtons = document.querySelectorAll(".filter-btn");
+    const menuItems = document.querySelectorAll(".menu-item");
+
+    filterButtons.forEach(button => {
+        button.addEventListener("click", () => {
+            // Kiểm tra sự kiện click
+            console.log(`Clicked on: ${button.textContent}`);
+
+            // Xóa lớp 'active' khỏi tất cả các nút và thêm vào nút hiện tại
+            filterButtons.forEach(btn => btn.classList.remove("active"));
+            button.classList.add("active");
+
+            const category = button.textContent.trim();
+
+            // Hiển thị hoặc ẩn các mục menu
+            menuItems.forEach(item => {
+                const itemCategory = item.dataset.category;
+                if (category === "Tất Cả" || 
+                    (category === "Bữa Sáng" && itemCategory === "breakfast") || 
+                    (category === "Món Chính" && itemCategory === "main") || 
+                    (category === "Đồ Uống" && itemCategory === "drink") || 
+                    (category === "Tráng Miệng" && itemCategory === "dessert")) {
+                    item.style.display = "block";
+                } else {
+                    item.style.display = "none";
+                }
+            });
+        })
+    });
+});
+</script>
+
+<script src="Home.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Không Tìm Thấy</title>
+    <link rel="stylesheet" href="404.css">
+</head>
+<body>
+    <div class="container">
+        <h1>404</h1>
+        <p>Trang web có gì không hài lòng.</p>
+        <p>Để giúp chúng tôi cải thiện, vui lòng cho biết chi tiết về lỗi này:</p>
+        <form id="feedbackForm">
+            <label for="error-description">Mô tả lỗi:</label>
+            <textarea id="error-description" name="error-description" rows="4" required></textarea>
+            <label for="email">Email của bạn (tùy chọn):</label>
+            <input type="email" id="email" name="email">
+            <input type="submit" value="Gửi Phản Hồi" class="submit-button">
+        </form>
+        <p id="responseMessage" style="display: none;"></p>
+        <a href="Home.html" class="back-button">Quay lại trang chủ</a>
+    </div>
+    <script src="404.js"></script>
+</body>
+</html>
