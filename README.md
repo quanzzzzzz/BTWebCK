@@ -8,7 +8,8 @@
 -Phạm Quang Minh- Trang chủ, Blog[CMS], thông tin nguyên liệu nấu ăn <br>
 -Đinh Thành Văn- liên hệ, đặt chỗ, thực đơn <br>
 <h1>Tổng quan các trang</h1><br>
-![Screenshot 2024-11-14 073226](https://github.com/user-attachments/assets/7f70eb86-9408-4df4-8ef2-ac45960b3250)
-
+![Screenshot 2024-11-14 073226](https://github.com/user-attachments/assets/7f70eb86-9408-4df4-8ef2-ac45960b3250) <br>
+<h1>link figma</h1> <br>
+https://www.figma.com/design/KhRB662bIT0HJyI178du0f/Food---Website-Design-(Community)?node-id=0-1&node-type=canvas&t=MO6UwbhF2478QZcr-0
 
 
