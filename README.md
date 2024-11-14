@@ -7,6 +7,8 @@
 -Bùi Xuân Quân- About, blog delltail [CMS], đánh giá <br>
 -Phạm Quang Minh- Trang chủ, Blog[CMS], thông tin nguyên liệu nấu ăn <br>
 -Đinh Thành Văn- liên hệ, đặt chỗ, thực đơn <br>
-<h1>Tổng quan figma</h1><br>
-![figma](https://github.com/user-attachments/assets/bae72fa9-6846-49e4-9463-650d6ac43379)
+<h1>Tổng quan các trang</h1><br>
+![Screenshot 2024-11-14 073226](https://github.com/user-attachments/assets/7f70eb86-9408-4df4-8ef2-ac45960b3250)
+
+
 
